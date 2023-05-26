@@ -38,5 +38,16 @@ const cartSlice = createSlice({
   },
 });
 
+// create an action creator to manage async code
+
+export const sendCardData= (cart)=>{
+
+  return async(dispatch)=>{
+    // everything goes here
+
+  }
+
+}
+
 export const CartActions = cartSlice.actions;
 export default cartSlice;
